@@ -7,5 +7,7 @@ C:\pleiades\pleiades\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspse
 \rei\src
 C:\pleiades\pleiades\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3859818630.index
 \re\src
+C:\pleiades\pleiades\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3476484643.index
+\sessionob\src
 C:\pleiades\pleiades\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1568636611.index
 \test\src
