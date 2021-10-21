@@ -1,0 +1,26 @@
+<%@page contentType="text/html; charset=UTF-8"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>rei10_response.jsp</title>
+	</head>
+	<body>
+		<table border="1">
+		<tr>
+			<td>性別</td>
+			<td>
+				<c:out value="${rei10bean.sei}"/>
+			</td>
+		</tr>
+		<td>年齢</td>
+			<td>
+				<c:out value="${rei10bean.nen}"/>
+			</td>
+		</table>
+
+<%-- ${rei08bean.text01} --%>
+<jsp:getProperty property="text01" name="rei08bean" />
+	</body>
+</html>

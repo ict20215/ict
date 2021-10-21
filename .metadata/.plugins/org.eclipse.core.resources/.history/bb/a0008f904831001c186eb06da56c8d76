@@ -1,0 +1,20 @@
+<%@page import="java.net.URLEncoder"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<%
+	String jsp = URLEncoder.encode("JSP", "UTF-8");
+	String servlet = URLEncoder.encode("サーブレット", "UTF-8");
+	String mvc = URLEncoder.encode("MVCパターン", "UTF-8");
+%>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>rei08_request.jsp</title>
+</head>
+<body>
+<a href="../Rei08Controller?text01=<%= jsp %>">JSP</a><br>
+<a href="../Rei08Controller?text01=<%= servlet %>">サーブレット</a><br>
+<a href="../Rei08Controller?text01=<%= mvc %>">MVC</a><br>
+</body>
+</html>
