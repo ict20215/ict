@@ -19,7 +19,7 @@
 				<c:forEach var="orderlistitem" items="${orderlist}">
 				<tr>
 					<td>
-						<c:out value="${orderlistitem.seminar}" />
+						<c:out value="${orderlistitem.seminar5}" />
 					</td>
 					<td>
 						<c:out value="${orderlistitem.orderninzu}" />

@@ -2,8 +2,8 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page import="java.util.ArrayList" %>
 <%
-String[] seminar1 = {"Strutsセミナー","JSPセミナー","Javaセミナー" } ;
-pageContext.setAttribute("seminar", seminar1);
+String[] seminar1 = {"Strutsセミナー","JSPセミナー","Javaセミナー", "Yasuセミナー" } ;
+pageContext.setAttribute("seminar2", seminar1);
 %>
 
 <!DOCTYPE html>
@@ -20,14 +20,14 @@ pageContext.setAttribute("seminar", seminar1);
 					<td>セミナー名</td>
 					<td>人数</td>
 				</tr>
-				<c:forEach var="seminaritem" items="${seminar}">
+				<c:forEach var="seminaritem1" items="${seminar2}">
 				<tr>
 					<td>
-					<input type="hidden" name="seminar" value="${seminaritem}">
-						<c:out value="${seminaritem}" />
+					<input type="hidden" name="seminar3" value="${seminaritem1}">
+						<c:out value="${seminaritem1}" />
 					</td>
 					<td>
-						<select name="ninzu">
+						<select name="ninzu1">
 							<c:forEach var="i" begin="0" end="100" step="1">
 								<option value="${i}"><c:out value="${i}"/></option>
 							</c:forEach>

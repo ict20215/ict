@@ -4372,3 +4372,21 @@ Binding(ALT+SHIFT+D R,
 java.lang.IllegalArgumentException: timeout value is negative
 	at java.base/java.lang.Thread.sleep(Native Method)
 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:90)
+
+!ENTRY org.eclipse.ui 2 2 2021-10-21 13:34:59.046
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-21 13:35:08.754
+!MESSAGE Preparing classpath changed notification test
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-21 13:35:08.754
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-21 13:35:08.770
+!MESSAGE buffering callback sts4.classpath.itSBkzOL test true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-21 13:35:08.786
+!MESSAGE executing callback sts4.classpath.itSBkzOL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-21 13:35:08.801
+!MESSAGE executing callback sts4.classpath.itSBkzOL SUCCESS [終了しました]
