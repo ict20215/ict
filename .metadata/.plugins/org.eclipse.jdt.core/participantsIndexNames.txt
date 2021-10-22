@@ -11,3 +11,5 @@ C:\pleiades\pleiades\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspse
 \sessionob\src
 C:\pleiades\pleiades\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1568636611.index
 \test\src
+C:\pleiades\pleiades\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\424014623.index
+\pra03\src
