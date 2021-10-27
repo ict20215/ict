@@ -4,6 +4,8 @@
 <%
 String[] itemnames = {"おいしいお茶","ミネラル健康水","スカッとメロン"};
 String[] itemprices = {"1200円","1000円","2400円"} ;
+/* ページスコープに登録するために以下の処理を行う．
+これをしないとJSPで使用できない． */
 pageContext.setAttribute("itemnames", itemnames);
 pageContext.setAttribute("itemprices", itemprices);
 
