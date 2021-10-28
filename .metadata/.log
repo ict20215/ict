@@ -10882,3 +10882,13 @@ Binding(ALT+SHIFT+D R,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-28 11:35:26.463
 !MESSAGE executing callback sts4.classpath.nBHkWZxb SUCCESS [終了しました]
+
+!ENTRY org.eclipse.ui 2 2 2021-10-28 11:46:48.497
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2021-10-28 12:21:56.764
+!MESSAGE Exception in update check thread
+!STACK 0
+java.lang.IllegalArgumentException: timeout value is negative
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:90)

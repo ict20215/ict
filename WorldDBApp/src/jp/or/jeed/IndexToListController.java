@@ -28,6 +28,8 @@ public class IndexToListController extends HttpServlet {
 				pb.setNext(pos + 20);
 			}
 			if((pos - 20) <= 0) {
+				pb.setPrevious(pos);
+			}else {
 				pb.setPrevious(pos - 20);
 			}
 			session.setAttribute("pb",pb);

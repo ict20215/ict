@@ -54,7 +54,7 @@ public class CityTblBean implements Serializable {
 		try {
 			conn = new ResourceFinder().getConnection();
 			st = conn.createStatement();
-			rs = st.executeQuery("SELCET * FROM city");
+			rs = st.executeQuery("SELECT * FROM city");
 			rs.absolute(pos);                                                                     //絶対値取得
 			for(int i=0;i<20;i++) {
 				CityTblBean ctb = new CityTblBean();
